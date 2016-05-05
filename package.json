@@ -1,0 +1,32 @@
+{
+  "name": "siv-components",
+  "version": "0.0.0",
+  "description": "React components for SIV and its extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape 'test/**/*.js' | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttmarek/siv-components.git"
+  },
+  "keywords": [
+    "SIV",
+    "React",
+    "Components"
+  ],
+  "author": "Thomas Marek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttmarek/siv-components/issues"
+  },
+  "homepage": "https://github.com/ttmarek/siv-components#readme",
+  "devDependencies": {
+    "tap-spec": "4.1.1",
+    "tape": "4.5.1"
+  },
+  "dependencies": {
+    "react": "15.0.1",
+    "react-hyperscript": "2.4.0"
+  }
+}
